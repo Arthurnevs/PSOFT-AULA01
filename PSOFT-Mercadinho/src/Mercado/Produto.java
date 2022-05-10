@@ -6,15 +6,14 @@ public class Produto {
 	private String nome;
 	private String descricao;
 	
-	public Produto(String nome, String descricao) {
+	public Produto(String nome) {
 		super();
 		this.nome = nome;
-		this.descricao = descricao;
 	}
 
 	@Override
 	public String toString() {
-		return "Produto [nome=" + nome + ", descricao=" + descricao + "]";
+		return "Produto [nome=" + nome + "]";
 	}
 	
 	
